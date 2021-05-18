@@ -7,6 +7,8 @@
 //
 
 #import "HHViewController.h"
+#import "HHDemoTableViewController.h"
+#import "HHCategoryViewController.h"
 
 @interface HHViewController ()
 
@@ -19,6 +21,17 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
 }
+
+- (IBAction)onClick:(UIButton *)sender {
+    HHDemoTableViewController *vc = [[HHDemoTableViewController alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
+}
+
+- (IBAction)onClick2:(UIButton *)sender {
+    HHCategoryViewController *vc = [[HHCategoryViewController alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
+}
+
 
 - (void)didReceiveMemoryWarning
 {

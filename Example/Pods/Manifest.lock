@@ -1,0 +1,16 @@
+PODS:
+  - HHSetTable (0.1.0)
+
+DEPENDENCIES:
+  - HHSetTable (from `../`)
+
+EXTERNAL SOURCES:
+  HHSetTable:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HHSetTable: 71c3bf4a329801ad7ceb0bfb88bab31dd477f337
+
+PODFILE CHECKSUM: 45a51bbee970a7aee0d32412b8588aba35762f23
+
+COCOAPODS: 1.10.1

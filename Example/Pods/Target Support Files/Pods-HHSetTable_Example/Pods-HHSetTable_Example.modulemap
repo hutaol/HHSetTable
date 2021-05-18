@@ -1,0 +1,6 @@
+framework module Pods_HHSetTable_Example {
+  umbrella header "Pods-HHSetTable_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

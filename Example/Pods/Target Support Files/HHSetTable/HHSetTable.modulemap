@@ -1,0 +1,6 @@
+framework module HHSetTable {
+  umbrella header "HHSetTable-umbrella.h"
+
+  export *
+  module * { export * }
+}

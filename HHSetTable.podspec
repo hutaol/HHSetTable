@@ -32,6 +32,8 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'HHSetTable/Classes/**/*'
   
+  s.resources = 'HHSetTable/Assets/*.{png,xib,nib,bundle}'
+
   # s.resource_bundles = {
   #   'HHSetTable' => ['HHSetTable/Assets/*.png']
   # }
