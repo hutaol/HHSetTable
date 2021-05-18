@@ -77,18 +77,18 @@
 /* Begin PBXFileReference section */
 		012E033384632ECEA288A5E229CCE131 /* Pods-HHSetTable_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HHSetTable_Example-dummy.m"; sourceTree = "<group>"; };
 		03D329956D9B7C0BA69C424BF3819CD2 /* HHSetTableViewManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HHSetTableViewManager.h; sourceTree = "<group>"; };
-		0592D8D666AF1B23C03371A18427901A /* HHSetTable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HHSetTable.framework; path = HHSetTable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0592D8D666AF1B23C03371A18427901A /* HHSetTable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HHSetTable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1082C802316950D3C391F5FB1B4572CC /* HHCustomCellModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HHCustomCellModel.h; sourceTree = "<group>"; };
 		135C7146647957C10EE04B2A42E12662 /* HHSetTable.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HHSetTable.debug.xcconfig; sourceTree = "<group>"; };
 		13C71A1669E7C31A164CF705BB002C7D /* HHTitleCellModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HHTitleCellModel.h; sourceTree = "<group>"; };
-		15315BF446735CF5321AAFCF7174F7D4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		15315BF446735CF5321AAFCF7174F7D4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		160D797700ED605F77E856E110CF01D7 /* HHBaseCellModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HHBaseCellModel.h; sourceTree = "<group>"; };
 		171D0FBFD8304D0F3836F6663890163E /* Pods-HHSetTable_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HHSetTable_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		1A72E9B3CBDDAAF0FE9639C350A0CEDE /* Pods-HHSetTable_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HHSetTable_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		1C8E952C0EDD42A0E4D50F80D3B92895 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		1C8E952C0EDD42A0E4D50F80D3B92895 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		1C936B3C86736C49F91295E45CC329C0 /* NSArray+HHSafeAccess.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+HHSafeAccess.m"; sourceTree = "<group>"; };
 		22F20D053DDF3EE78695FC7AED2EC186 /* Pods-HHSetTable_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HHSetTable_Example.modulemap"; sourceTree = "<group>"; };
-		24A34D5C0A525F9613E940940738BE55 /* Pods_HHSetTable_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HHSetTable_Example.framework; path = "Pods-HHSetTable_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24A34D5C0A525F9613E940940738BE55 /* Pods_HHSetTable_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HHSetTable_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		24AD286BCB6A2DE6CAF4FC555B193F77 /* HHBaseTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HHBaseTableViewCell.h; sourceTree = "<group>"; };
 		26A1F8DF1177C78F9EC69C0724B80EAA /* HHSetTableViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HHSetTableViewController.m; sourceTree = "<group>"; };
 		30D62E6A828DB5CB251FAC33A0E9ECB0 /* HHTitleTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HHTitleTableViewCell.h; sourceTree = "<group>"; };
@@ -101,13 +101,13 @@
 		4A25D3EFE828DC5605EDC1555F0A1783 /* HHSetTableViewManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HHSetTableViewManager.m; sourceTree = "<group>"; };
 		4AFA9731DD5B72017E682D61B3FBFB2B /* NSArray+HHSafeAccess.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+HHSafeAccess.h"; sourceTree = "<group>"; };
 		4B3061F9D8EE04D67CC546A34DD51A04 /* HHTextCellModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HHTextCellModel.h; sourceTree = "<group>"; };
-		4CE34820CDD76744AD4098BA8F414F2E /* HHSetTable.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = HHSetTable.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4CE34820CDD76744AD4098BA8F414F2E /* HHSetTable.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = HHSetTable.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		52570429E95153259576FBAB17C3E9D6 /* Pods-HHSetTable_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HHSetTable_Example-Info.plist"; sourceTree = "<group>"; };
 		56A8215EB6FBB298F330F1DE6F522533 /* UIViewController+HHSetTableView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+HHSetTableView.m"; sourceTree = "<group>"; };
 		58128346DA6DEC1C35F9E58EC9A6BCBA /* HHTextCellModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HHTextCellModel.m; sourceTree = "<group>"; };
 		58CBD977111586189DB914FBA949FF11 /* Pods-HHSetTable_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HHSetTable_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		5C193D47DA0C5A6BA18477277E797F90 /* Pods-HHSetTable_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HHSetTable_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		68A05A6B8BB8D66E378FB7D76B3EBDF0 /* Pods_HHSetTable_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HHSetTable_Tests.framework; path = "Pods-HHSetTable_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		68A05A6B8BB8D66E378FB7D76B3EBDF0 /* Pods_HHSetTable_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HHSetTable_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A82AFDDA94587451E63E01BE37D08D2 /* UIColor+HHSetTheme.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+HHSetTheme.h"; sourceTree = "<group>"; };
 		702194B64DC277E96A2048696450F51D /* Pods-HHSetTable_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HHSetTable_Example-frameworks.sh"; sourceTree = "<group>"; };
 		70F4B7945F49CFC4297CC931B00412B7 /* HHBaseTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HHBaseTableViewCell.m; sourceTree = "<group>"; };
@@ -125,7 +125,7 @@
 		99A28F187B9645E4ABBFECA077E89A88 /* Pods-HHSetTable_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HHSetTable_Tests-umbrella.h"; sourceTree = "<group>"; };
 		9B33A89EE2005F29F994B4DC7C95211C /* Pods-HHSetTable_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HHSetTable_Tests-Info.plist"; sourceTree = "<group>"; };
 		9BAAC11FCAF35FAAC9187823971DC5C6 /* NSBundle+HHSet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+HHSet.m"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9EEFE8F7B305DEEF7C525A906202DEC2 /* HHSetTable-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HHSetTable-dummy.m"; sourceTree = "<group>"; };
 		9F563F39C21E557911F726FACE641D99 /* Pods-HHSetTable_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HHSetTable_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A2E2B1C0E6DAB822441BE3BB0E2568DC /* HHTextTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HHTextTableViewCell.m; sourceTree = "<group>"; };
@@ -822,8 +822,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
