@@ -10,7 +10,7 @@
 
 @implementation NSBundle (HHSet)
 
-+ (instancetype)hhResourceBundle {
++ (instancetype)hhSetResourceBundle {
     static NSBundle *hhBundle = nil;
     if (hhBundle == nil) {
         hhBundle = [NSBundle bundleWithPath:[[NSBundle mainBundle] pathForResource:@"HHSetTable" ofType:@"bundle"]];
@@ -24,7 +24,7 @@
 + (UIImage *)getImageForHHSet:(NSString *)name {
     CGFloat scale = [[UIScreen mainScreen] scale];
     name = 3.0 == scale ? [NSString stringWithFormat:@"%@@3x.png", name] : [NSString stringWithFormat:@"%@@2x.png", name];
-    NSString *path = [[[NSBundle hhResourceBundle] resourcePath] stringByAppendingPathComponent:name];
+    NSString *path = [[[NSBundle hhSetResourceBundle] resourcePath] stringByAppendingPathComponent:name];
     UIImage *image = [UIImage imageWithContentsOfFile:path];
     if (!image) {
         image = [UIImage imageNamed:path];
@@ -33,7 +33,7 @@
 }
 
 + (NSString *)getSetFilePath:(NSString *)name type:(NSString *)type {
-    return [[NSBundle hhResourceBundle] pathForResource:name ofType:type];
+    return [[NSBundle hhSetResourceBundle] pathForResource:name ofType:type];
 }
 
 @end
