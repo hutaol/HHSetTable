@@ -24,7 +24,7 @@ typedef void(^SwitchBlock)(HHBaseCellModel *model, BOOL on);
 /// @param title 标题
 /// @param on 开关状态
 /// @param block 回调
-- (instancetype)initWithTitle:(NSString *)title switchType:(BOOL)on switchBlock:(SwitchBlock)block;
+- (instancetype)initWithTitle:(NSString *)title switchType:(BOOL)on switchBlock:(nullable SwitchBlock)block;
 
 
 @end

@@ -4,6 +4,8 @@ platform :ios, '9.0'
 
 target 'HHSetTable_Example' do
   pod 'HHSetTable', :path => '../'
+  
+  pod 'HHTool', :git => 'https://github.com/hutaol/HHTool.git', :tag => '0.2.1'
 
   target 'HHSetTable_Tests' do
     inherit! :search_paths

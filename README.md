@@ -27,3 +27,6 @@ pod 'HHSetTable'
 ## License
 
 HHSetTable is available under the MIT license. See the LICENSE file for more info.
+
+
+参考：https://github.com/shaohuihu/HSSetTableViewController

@@ -10,6 +10,9 @@
 		0AD5BF720815D700CA21006B /* Pods_HHSetTable_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5F6D0AE5A4A72254F79728A /* Pods_HHSetTable_Example.framework */; };
 		35622E29265270B70068C64E /* HHDemoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35622E28265270B70068C64E /* HHDemoTableViewController.m */; };
 		356FFD7426538E1100A2F564 /* HHCategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 356FFD7326538E1100A2F564 /* HHCategoryViewController.m */; };
+		3593875E26549C5E0067280B /* HHMyCustomCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3593875D26549C5E0067280B /* HHMyCustomCellModel.m */; };
+		3593876126549C770067280B /* HHMyCustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3593876026549C770067280B /* HHMyCustomTableViewCell.m */; };
+		359387642654A1670067280B /* HHUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 359387632654A1670067280B /* HHUtils.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -44,6 +47,12 @@
 		35622E28265270B70068C64E /* HHDemoTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHDemoTableViewController.m; sourceTree = "<group>"; };
 		356FFD7226538E1100A2F564 /* HHCategoryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHCategoryViewController.h; sourceTree = "<group>"; };
 		356FFD7326538E1100A2F564 /* HHCategoryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHCategoryViewController.m; sourceTree = "<group>"; };
+		3593875C26549C5E0067280B /* HHMyCustomCellModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHMyCustomCellModel.h; sourceTree = "<group>"; };
+		3593875D26549C5E0067280B /* HHMyCustomCellModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHMyCustomCellModel.m; sourceTree = "<group>"; };
+		3593875F26549C770067280B /* HHMyCustomTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHMyCustomTableViewCell.h; sourceTree = "<group>"; };
+		3593876026549C770067280B /* HHMyCustomTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHMyCustomTableViewCell.m; sourceTree = "<group>"; };
+		359387622654A1670067280B /* HHUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHUtils.h; sourceTree = "<group>"; };
+		359387632654A1670067280B /* HHUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHUtils.m; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* HHSetTable_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HHSetTable_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -112,6 +121,17 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		3593875B26549C2A0067280B /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				3593875C26549C5E0067280B /* HHMyCustomCellModel.h */,
+				3593875D26549C5E0067280B /* HHMyCustomCellModel.m */,
+				3593875F26549C770067280B /* HHMyCustomTableViewCell.h */,
+				3593876026549C770067280B /* HHMyCustomTableViewCell.m */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -149,18 +169,21 @@
 		6003F593195388D20070C39A /* Example for HHSetTable */ = {
 			isa = PBXGroup;
 			children = (
+				3593875B26549C2A0067280B /* Custom */,
 				6003F59C195388D20070C39A /* HHAppDelegate.h */,
 				6003F59D195388D20070C39A /* HHAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* HHViewController.h */,
 				6003F5A6195388D20070C39A /* HHViewController.m */,
-				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
-				6003F5A8195388D20070C39A /* Images.xcassets */,
-				6003F594195388D20070C39A /* Supporting Files */,
+				359387622654A1670067280B /* HHUtils.h */,
+				359387632654A1670067280B /* HHUtils.m */,
 				35622E27265270B70068C64E /* HHDemoTableViewController.h */,
 				35622E28265270B70068C64E /* HHDemoTableViewController.m */,
 				356FFD7226538E1100A2F564 /* HHCategoryViewController.h */,
 				356FFD7326538E1100A2F564 /* HHCategoryViewController.m */,
+				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
+				6003F5A8195388D20070C39A /* Images.xcassets */,
+				6003F594195388D20070C39A /* Supporting Files */,
 			);
 			name = "Example for HHSetTable";
 			path = HHSetTable;
@@ -312,11 +335,27 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-HHSetTable_Example/Pods-HHSetTable_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/DZNEmptyDataSet/DZNEmptyDataSet.framework",
 				"${BUILT_PRODUCTS_DIR}/HHSetTable/HHSetTable.framework",
+				"${BUILT_PRODUCTS_DIR}/HHTool/HHTool.framework",
+				"${BUILT_PRODUCTS_DIR}/HXPhotoPicker/HXPhotoPicker.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SPAlertController/SPAlertController.framework",
+				"${BUILT_PRODUCTS_DIR}/Toast/Toast.framework",
+				"${BUILT_PRODUCTS_DIR}/YBPopupMenu/YBPopupMenu.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DZNEmptyDataSet.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HHSetTable.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HHTool.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HXPhotoPicker.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SPAlertController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toast.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YBPopupMenu.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -378,6 +417,9 @@
 				356FFD7426538E1100A2F564 /* HHCategoryViewController.m in Sources */,
 				6003F5A7195388D20070C39A /* HHViewController.m in Sources */,
 				35622E29265270B70068C64E /* HHDemoTableViewController.m in Sources */,
+				3593875E26549C5E0067280B /* HHMyCustomCellModel.m in Sources */,
+				359387642654A1670067280B /* HHUtils.m in Sources */,
+				3593876126549C770067280B /* HHMyCustomTableViewCell.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

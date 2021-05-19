@@ -12,6 +12,7 @@
 
 #import "NSArray+HHSafeAccess.h"
 #import "NSBundle+HHSet.h"
+#import "NSObject+HHSet.h"
 #import "NSString+HHHeight.h"
 #import "UIColor+HHSetTheme.h"
 #import "HHSetTableViewController.h"

@@ -11,7 +11,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface HHCustomCellModel : HHBaseCellModel
 
-- (instancetype)initWithCellIdentifier:(NSString *)cellIdentifier actionBlock:(ClickActionBlock)block;
+/// 自定义模型初始化方法,请特别注意调用自定义模型方法后，cell必须自定义且存在
+/// @param cellIdentifier 自定义cell类名，作为唯一标示符
+/// @param block 回调
+- (instancetype)initWithCellIdentifier:(NSString *)cellIdentifier actionBlock:(nullable ClickActionBlock)block;
 
 @end
 

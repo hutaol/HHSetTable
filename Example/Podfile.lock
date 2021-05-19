@@ -1,16 +1,64 @@
 PODS:
+  - DZNEmptyDataSet (1.8.1)
   - HHSetTable (0.1.0)
+  - HHTool (0.2.1):
+    - DZNEmptyDataSet (~> 1.8.1)
+    - HXPhotoPicker (~> 3.1.9)
+    - HXPhotoPicker/SDWebImage (~> 3.1.9)
+    - MBProgressHUD (~> 1.2.0)
+    - SPAlertController (~> 4.0.0)
+    - Toast (~> 4.0.0)
+    - YBPopupMenu (~> 1.1.9)
+  - HXPhotoPicker (3.1.9):
+    - HXPhotoPicker/Default (= 3.1.9)
+  - HXPhotoPicker/Default (3.1.9)
+  - HXPhotoPicker/SDWebImage (3.1.9):
+    - SDWebImage (~> 5.0)
+  - MBProgressHUD (1.2.0)
+  - SDWebImage (5.11.1):
+    - SDWebImage/Core (= 5.11.1)
+  - SDWebImage/Core (5.11.1)
+  - SPAlertController (4.0.0)
+  - Toast (4.0.0)
+  - YBPopupMenu (1.1.9)
 
 DEPENDENCIES:
   - HHSetTable (from `../`)
+  - HHTool (from `https://github.com/hutaol/HHTool.git`, tag `0.2.1`)
+
+SPEC REPOS:
+  trunk:
+    - DZNEmptyDataSet
+    - HXPhotoPicker
+    - MBProgressHUD
+    - SDWebImage
+    - SPAlertController
+    - Toast
+    - YBPopupMenu
 
 EXTERNAL SOURCES:
   HHSetTable:
     :path: "../"
+  HHTool:
+    :git: https://github.com/hutaol/HHTool.git
+    :tag: 0.2.1
+
+CHECKOUT OPTIONS:
+  HHTool:
+    :git: https://github.com/hutaol/HHTool.git
+    :tag: 0.2.1
 
 SPEC CHECKSUMS:
-  HHSetTable: 71c3bf4a329801ad7ceb0bfb88bab31dd477f337
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  HHSetTable: fb17fafb1e5bc6e92d3fddfb24b20ceb1c4dbb37
+  HHTool: e8c82b7eab9df560a979bfe5c165838daff089d3
+  HXPhotoPicker: e1816ff27f17c3926f6e83aebbb9f4b329324f0b
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  SDWebImage: a7f831e1a65eb5e285e3fb046a23fcfbf08e696d
+  SPAlertController: b245d7a5e17d612da051f2612aca3703f21d108f
+  Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
+  YBPopupMenu: 3a02e89860bb0568ba477aee609bc3f25e5bd339
 
-PODFILE CHECKSUM: 45a51bbee970a7aee0d32412b8588aba35762f23
+PODFILE CHECKSUM: c646a0b02500b46c1ee03a6a02b72caf8cf9a5f2
 
 COCOAPODS: 1.10.1

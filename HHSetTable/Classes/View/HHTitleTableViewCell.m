@@ -44,20 +44,20 @@
 - (void)setupDataModel:(HHBaseCellModel *)model {
     [super setupDataModel:model];
     
-    HHTitleCellModel *cellMoldel = (HHTitleCellModel *)model;
-    if (cellMoldel.attributeTitle) {
-        self.textLabel.attributedText = cellMoldel.attributeTitle;
+    HHTitleCellModel *cellModel = (HHTitleCellModel *)model;
+    if (cellModel.attributeTitle) {
+        self.textLabel.attributedText = cellModel.attributeTitle;
     } else {
-        self.textLabel.text = cellMoldel.title;
-        self.textLabel.textColor = cellMoldel.titleColor;
-        self.textLabel.font = cellMoldel.titleFont;
+        self.textLabel.text = cellModel.title;
+        self.textLabel.textColor = cellModel.titleColor;
+        self.textLabel.font = cellModel.titleFont;
     }
-    self.textLabel.textAlignment = cellMoldel.titleTextAlignment;
-    self.imageView.image = cellMoldel.icon;
+    self.textLabel.textAlignment = cellModel.titleTextAlignment;
+    self.imageView.image = cellModel.icon;
        
-    if (cellMoldel.showArrow) {
-        self.arrowImageView.image = cellMoldel.arrowImage;
-        self.arrowImageView.frame = CGRectMake(0, 0, cellMoldel.arrowWidth, cellMoldel.arrowHeight);
+    if (cellModel.showArrow) {
+        self.arrowImageView.image = cellModel.arrowImage;
+        self.arrowImageView.frame = CGRectMake(0, 0, cellModel.arrowWidth, cellModel.arrowHeight);
         self.accessoryView = self.arrowImageView;
     } else {
         self.accessoryView = nil;

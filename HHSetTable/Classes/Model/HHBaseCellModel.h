@@ -21,7 +21,7 @@ typedef void(^ClickActionBlock)(HHBaseCellModel *model);
 @property (nonatomic, strong) UIColor *backgroundColor;
 /// 选中cell效果
 @property (nonatomic, assign) UITableViewCellSelectionStyle selectionStyle;
-/// cell高度(默认有高度)
+/// cell高度(默认44)
 @property (nonatomic, assign) CGFloat cellHeight;
 
 /// TODO 分割线暂未实现
